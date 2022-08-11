@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wire frame</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        weather
+      </h1>
+      <form>
+        <label for="city"> Enter a city: </label>
+      <input type="text" city="city" id="city" required>
+      <input type="submit" value="search">
+      </form>
+      <h3 id="place">
+        CARACAS
+      </h3>
+      <p id="temp" class="weather-state">
+        sunny with wind
+      </p>
+      <h4>
+        Today:
+      </h4>
+      <h5 class="date" id="dateNow">
+        Thursday 16:00
+      <h6>
+        Sunny
+      </br>
+        ☀️
+    </br>
+    with wind
+  </br>
+  💨
+      
+      </h6>
+      <div class="days">
+        <div class="row">
+          <div class="col">
+            Tuesday
+          </div>
+          <div class="col">
+            Wednesday
+          </div>
+          <div class="col">
+            Thursday
+          </div>
+          <div class="col">
+            Friday
+          </div>
+        </div>
+      </div>
+      <div class="temp">
+        <div class="row">
+          <div class="col">
+            18°C
+
+          </div>
+          <div class="col">
+            22°C
+
+          </div>
+          <div class="col">
+            19°C
+
+          </div>
+          <div class="col">
+            21°C
+
+          </div>
+        </div>
+      </div>
+      <div class="emojis-weather">
+        <div class="row">
+          <div class="col">
+            🌧
+          </div>
+          <div class="col">
+            🌤
+          </div>
+          <div class="col">
+            🌥
+          </div>
+          <div class="col">
+            ☁️
+          </div>
+        </div>
+      
+      </div>
+    </br>
+  <p class="later-today">
+    Later today:
+  </p>
+      <div class="hourly-weather">
+        <div class="row">
+          <div class="col">
+            3pm</div>
+            <div class="col">
+              4pm</div>
+              <div class="col">
+                5pm</div>
+                <div class="col">
+                  6pm </div>
+                </div>
+      </div>
+      <div class="time-emojis">
+        <div class="row">
+          <div class="col">
+            🌤</div>
+            <div class="col">
+              ⛅️</div>
+              <div class="col">
+                🌥</div>
+                <div class="col">
+                  ☁️</div>
+        </div>
+
+
+
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
